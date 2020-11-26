@@ -1,0 +1,16 @@
+instalar o TS localmente: yarn add -D typescript
+
+compilar o TS: yarn tsc arquivo.ts ou yarn tsc
+
+compilar o TS sempre que for modificado: yarn tsc --watch
+
+criar o ts-config: yarn tsc --init
+
+
+
+instalar o que executa:
+   yarn add -D ts-node-dev
+ou
+   yarn add -D nodemon
+
+executar o nodemon: yarn nodemon dist/arquivo.js
